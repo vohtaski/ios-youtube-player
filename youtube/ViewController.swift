@@ -45,7 +45,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         let label = cell.viewWithTag(2) as! UILabel
         label.text = video.title
         
-        let thumbUrlStr = "https://i1.ytimg.com/vi/\(video.id)/maxresdefault.jpg"
+        let thumbUrlStr = "https://i1.ytimg.com/vi/\(video.id)/mqdefault.jpg"
         let thumbUrl = NSURL(string: thumbUrlStr)
         let request = NSURLRequest(URL: thumbUrl!)
         let session = NSURLSession.sharedSession()
